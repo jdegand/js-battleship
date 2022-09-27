@@ -18,12 +18,13 @@ Simplified battleship game with 1 ship and limited turns.  Played with window pr
 
 ![](js-battleship-2.png)
 
-## Link
+### Link
 
 - [Github Pages](https://jdegand.github.io/js-battleship)
 
 ## Continued Development
 
+- No favicon
 - Row and column input order - originally set it where row is chosen before column - have to change the order of prompts and order of some function parameters to reverse order
 - Problem - script file executes before html is loaded. Prompt in browser and elements tab is empty. Have to play one whole game before the html will finally be loaded in.  This prevents the console.logs from displaying.  
 - Changed code to have game start on the click of a button vs just calling the  main() function at the end of the script file. 
